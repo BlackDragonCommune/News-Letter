@@ -10,8 +10,9 @@
 <body>
 <div class="container">
     <article>
-        <header id="rainbow" style="color: rgb(0, 0, 0); font-family: sans-serif; font-size: 35px; line-height: 1.2; text-align: center">
-            <pre>
+        <div id="container" style="width: 100%; max-width: 1000px; margin: 0 auto;">
+            <header id="rainbow">
+                <pre>
         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
                                                                                                              
                                                            ██                                               
@@ -42,17 +43,23 @@
                                        ███████████████ █████ ███████████████                                
                                            █████████████████████████████                                    
                                                 ███████████████████                                         
-            </pre>
-        </header>
+                </pre>
+            </header>
+        </div>
+        
+        
         <style>
             #rainbow {
                 color: rgb(0, 0, 0);
                 font-family: sans-serif;
-                font-size: 35px;
-                line-height: 1.2; /* Adjust this value */
+                font-size: 20px; /* Adjust the font size here */
+                line-height: 1.2; /* Adjust this if needed */
                 text-align: center;
+                white-space: pre; /* Ensures that whitespace is preserved */
+                overflow: auto; /* Add scrollbars if needed */
             }
         </style>
+        
         
         <header style="color: rgb(255, 255, 255); font-family: sans-serif; font-size: 15px; text-align: center">
             <p>I am a developer with a strong passion for software automation, cybersecurity, and reverse engineering. I also engage in freelancing projects to further explore and apply my skills in these areas.</p>
